@@ -1,0 +1,131 @@
+body{
+    background-color: #232323;
+    font-family: 'PT Serif', serif; 
+    width: 45%;
+    margin:  0 auto;
+
+}
+
+.contenedor{
+    width: 60%;
+
+    margin: 0 auto;
+
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+    color: white; 
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+.input_div{
+    margin-right: 300px;
+    width: 60%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 450px 300px  ;
+}
+
+.input{
+    width: 450px;
+    height: 50px;
+  margin-right: 100px; 
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 18px;
+    outline: none;
+    transition: all .6s;
+    margin-bottom: 30px;
+}
+
+.inputItem{
+
+    width: 350px;
+    height: 50px;
+    border:solid 1px white;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+  
+    transition: all 0.6s;
+padding-left: 40px;
+    padding-top: 0px;
+    padding-right: 40px;
+    padding-bottom: 0px;
+
+color: black;
+outline: none;
+}
+
+
+.item{
+    display: grid;
+    grid-template-columns: 1fr 30px 30px;
+width: 100%;
+    margin-bottom: 10px;
+  
+    align-items: center;
+  
+
+}
+
+.boton_remover{
+    height: 35px;
+    width: 35px;
+    border-radius: 5px;
+    background:none;
+    border: none;
+color:rgb(255, 6, 46);
+cursor: pointer;
+font-size: 20px;
+margin-right: 5px;
+margin-left: 5px;
+margin-top: 0px;
+margin-bottom: 0px;
+font-size: 20px;
+}
+
+
+
+.boton_editar{
+
+    height: 45px;
+    width: 45px;
+font-family: Montserrat, sans-serif;
+  font-size: 20px;
+    border-radius: 5px;
+    background-color: #232323;
+    border: none;
+color:#62d0ff;
+cursor: pointer;    
+margin-right: 5px;
+margin-left: 5px;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+.boton_agregar{
+    height: 52px;
+    width: 50px;
+    margin: 5px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #232323;
+    color: white;
+    cursor: pointer;
+    align-items: center;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+.boton_agregar:hover{
+color: black;
+}
